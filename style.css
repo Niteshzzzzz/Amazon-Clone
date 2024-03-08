@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.navbar {
+    height: 60px;
+    background-color: #0F1111;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+}
+.logo{
+    height: 50px;
+    width: 112px;
+   
+}
+img{
+    height: 50px;
+    width: 100px; 
+}
+.border{ 
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.delivery>p{
+    font-size: 0.85rem;
+    color: #CCCCCC;
+    margin-left: 15px;
+}
+.del2{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+.del2>p{
+    margin-left: 3px;
+}
+.del2>i{
+    font-size: 20px;
+}
+/*box 3*/
+.search-box{
+    display: flex;
+    justify-content: space-evenly;
+    width: 660px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-box select{
+    width: 52px;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.search-icon i{
+    width: 45px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0F1111;
+    background-color: rgb(247, 209, 74);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+}
+.search-box input{
+    width: 100%;
+    border: none;
+    font-size: 17px;
+}
+.search-box:hover{
+    border: 2px solid orange;
+}
+span{
+    font-size: 0.85rem;
+}
+.sub-acc{
+    font-size: 1rem;
+    font-weight: 700;
+}
+#cart i{
+    font-size: 30px;
+}
+#cart{
+    font-weight: 700;
+}
+/*panel*/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.panel2{
+    display: flex;
+    justify-content: flex-start;
+}
+.p-child{
+    margin: 5px 6px;
+    padding: 8px 9px;
+}
+.menu{
+    padding: 8px 9px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.menu i{
+    font-size: 1.2rem;
+}
+.border1{
+    border: 1px solid transparent;
+}
+.border1:hover{
+    border: 1px solid white;
+    position: relative;
+    top: 1px;
+}
+/* hero section*/
+.hero-section {
+    background-image: url('hero_image.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.link {
+    background-color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    width: 90%;
+    font-size: 1rem;
+}
+.link a{
+    text-decoration: none;
+    color: #007185;
+}
+.link a:hover{
+    text-decoration: underline;
+    color: red;
+}
+/*first row boxes*/
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+
+}
+.boxp{
+    width: 23%;
+    height: 420px;
+    background-color: white;
+    padding: 20px 10px 15px 10px;
+    margin-bottom: 25px;
+}
+.boxp:hover{
+    cursor: pointer;
+}
+.image{
+    margin: 17px;
+    width: 292px;
+    height: 303px;
+}
+.boxp h2{
+    margin-left: 15px;
+}
+.boxp p{
+    margin-left: 15px;
+    color: #007185;
+}
+.footer-panel1{
+    background-color: #37475a;
+    height: 50px;
+    color: white;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-panel1:hover{
+    cursor: pointer;
+    background-color: #424d5c;
+}
+.footer-panel2{
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    
+    height: 350px;
+}
+ul p{
+    margin-top: 40px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+ul a{
+    color: #dddddd;
+    display: block;
+    margin-top: 12px;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+ul a:hover{
+    text-decoration: underline;
+}
+.footer-panel3{
+    background-color: #222f3d;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #dddddd;
+}
+.footer-panel3 div{
+    color: #dddddd;
+    font-size: 0.85rem;
+    padding: 5px 20px 5px 10px;
+    margin: 5px 15px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+}
+.footer-panel3 .logo1{
+    border: none;
+    margin-right: 50px;
+}
+.ri-money-dollar-circle-line{
+    font-size: 20px;
+}
+.footer-panel3 div:hover{
+    cursor: pointer;
+}
+.footer-panel4{
+    height: 70px;
+    background-color: #0F1111;
+    color: #dddddd;
+    padding-top: 15px;
+}
+.fp1{
+    display: flex;
+    justify-content: center;
+    
+}
+.fp2{
+    font-size: 0.85rem;
+    text-align: center;
+    margin-top: 5px;
+}
+.fp1 a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #dddddd;
+    font-size: 0.8rem;
+}
+.fp1 a:hover{
+    text-decoration: underline;
+}
